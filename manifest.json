@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Pessimism Now",
-  "version": "0.14",
+  "version": "0.15",
   "chrome_url_overrides" : {
     "newtab": "pessimism.html"
   },
@@ -12,5 +12,6 @@
     ],
     "js": ["jquery-3.3.1.min.js","content.js"]
   }
-]
+],
+"icons": { "16": "favicon.ico" },
 }
