@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Pessimism Now",
   "description": "New Tabs open with a quote from a pessimist, nihilist, antinatalist or atheist philosopher. Darken your day with a solid dose of barren reality.",
-  "version": "0.18",
+  "version": "0.30",
   "chrome_url_overrides" : {
     "newtab": "pessimism.html"
   },

@@ -1,9 +1,18 @@
 <script src='./jquery-3.3.1.min.js'></script>
 <script src='./content.js'></script>
 <style>
-  quote {margin-left: 50%;}
+  * {background-color: black; color: white;}
+  #container {padding: 5%; border: 1px solid grey;}
+  #quote-container {font-size: -webkit-xxx-large;}
+  #author {float: right; font-size: x-large;}
 </style>
 
 <title>Pessimism Now</title>
-<h3 id="quote"></h3>
-<h4 id="author"></h4>
+<div id="container">
+  <div id="quote-container">
+    <p id="quote"></p>
+  </div>
+  <div id="author-container">
+    <p id="author"></p>
+  </div>
+</div>
