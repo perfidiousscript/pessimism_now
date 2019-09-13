@@ -1,20 +1,16 @@
 {
   "manifest_version": 2,
   "name": "Pessimism Now",
-  "description": "New Tabs open with a quote from a pessimist, nihilist, antinatalist or atheist philosopher. Darken your day with a solid dose of barren reality.",
-  "version": "0.30",
-  "chrome_url_overrides" : {
+  "description": "New Tabs open with a quote from a pessimist philosopher. Darken your day with a solid dose of barren reality.",
+  "version": "0.31",
+  "chrome_url_overrides": {
     "newtab": "pessimism.html"
   },
   "content_scripts": [
-  {
-    "matches": [
-      "<all_urls>"
-    ],
-    "js": ["jquery-3.3.1.min.js","content.js"]
-  }
-],
-"icons": { "16": "favicon.ico",
-           "48": "favicon-1024.png"
-         }
+    {
+      "matches": ["<all_urls>"],
+      "js": ["jquery-3.3.1.min.js", "content.js"]
+    }
+  ],
+  "icons": { "16": "favicon.ico", "48": "favicon-1024.png" }
 }
